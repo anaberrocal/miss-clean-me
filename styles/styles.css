@@ -1,0 +1,27 @@
+.nav-link {
+    border-bottom: 1px solid transparent !important;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #485785 !important;
+    transition: 0.3s;
+}
+
+.nav-link .dropdown-toggle {
+    border-bottom: none !important;
+}
+
+.banner  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+
+}
+
+.container-fluid img {
+    max-width: 100% !important;
+}
